@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/profile.png';
+import profile from '../images/profile.jpeg';
 import { FaGithub } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 
@@ -7,9 +7,9 @@ function Card({ name, title, social: { github, email } }) {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
-        <div className="">
+        <div className="overflow-hidden rounded-full w-32 h-32 mx-auto shadow-xl">
           <img
-            className="w-32 mx-auto shadow-xl rounded-full"
+            className="w-full h-full object-cover"
             src={profile}
             alt="Profile face"
           />

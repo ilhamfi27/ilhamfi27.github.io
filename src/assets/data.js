@@ -28,7 +28,7 @@ import KubernetesJSIcon from '../icons/kubernetes';
 const BOOTSTRAP_FOR_SKILL_ICON = 'text-4xl mx-auto inline-block';
 const data = {
   name: 'R. Ilham Fadhilah I.',
-  title: 'Full-stack Developer',
+  title: 'Senior Full-stack Developer',
   social: {
     github: 'https://github.com/ilhamfi27',
     email: 'r.ilhamfadhilah@gmail.com',
